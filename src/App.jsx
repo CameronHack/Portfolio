@@ -1,9 +1,12 @@
+import { Outlet } from 'react-router-dom';
+import Header from './components/Header';
 
 function App() {
 
   return (
     <>
-      <h1 className='p-4 text-lg text-blue-700'>Cameron Hack</h1>
+      <Header />
+      <Outlet />
     </>
   )
 }
