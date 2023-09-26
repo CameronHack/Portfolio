@@ -4,7 +4,7 @@ export default function Project({ title, description, image, url, github, tags }
     return (
         <>
             <div className="md:container 2xl:w-1/2 xl:w-3/4 l:w-1/4 m-8 mx-auto bg-light-2 md:rounded-xl shadow-sm">
-                <h2 className='font-main text-center text-3xl p-4'>{title}</h2>
+                <h2 className='font-main text-text-light text-center text-3xl p-4'>{title}</h2>
 
                 <Link to={url}><img src={image} alt="" /></Link>
 

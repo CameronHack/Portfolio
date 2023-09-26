@@ -7,14 +7,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary': '#1800ff',
+        'primary': '#5ef051',
         'secondary': '#00a2ff',
-        'light-1': '#eeeeee',
-        'light-2': '#ffffff',
+        'light-1': '#111111',
+        'light-2': '#161616',
+        'text-light': '#dfdfdf',
       },
       fontFamily: {
-        main: ['Montserrat, sans-serif'],
-        secondary: ['Hind, sans-serif'],
+        main: ['Archivo, sans-serif'],
+        secondary: ['Inter, sans-serif'],
       },
     },
   },
