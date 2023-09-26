@@ -17,7 +17,7 @@ export default function AboutMe() {
                 Nesciunt perferendis earum quas dignissimos? Corrupti ipsum, blanditiis, libero ipsam molestiae quaerat quisquam velit, perferendis voluptatem mollitia unde cum laborum ullam rem assumenda sequi amet quasi vitae cupiditate suscipit ratione!</p>
 
             {/* bar below about me */}
-            <div className="w-64 h-1 md:mx-16 mt-2 bg-gradient-to-r from-primary to-[#fff0]"/>
+            <div className="w-64 h-1 md:mx-16 mt-2 bg-gradient-to-r from-primary to-[#fff0] opacity-50"/>
 
             <img src="./src/assets/CH.png" className="md:w-20 w-1/5 pt-4 mx-auto" />
 
