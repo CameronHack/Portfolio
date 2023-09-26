@@ -7,7 +7,6 @@ import App from './App.jsx'
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
-import Resume from './pages/Resume';
 
 const router = createBrowserRouter([
   { 
@@ -25,10 +24,6 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact />,
-      },
-      {
-        path: '/resume',
-        element: <Resume />,
       },
     ],
   }

@@ -15,7 +15,7 @@ const projects = [
         image: "/src/assets/VoteWaveDesktop.png",
         url: "https://damp-beach-24784-675a670756cd.herokuapp.com/",
         github: "https://github.com/brianmyer/votewave",
-        tags: ["Tailwind", "Chart.js"]
+        tags: ["Handlebars", "Node", "Express", "MySQL", "Tailwind", "Chart.js"]
     },
 ]
 
