@@ -1,3 +1,4 @@
+import photo from '/src/assets/photo.png';
 import CHLogo from '/src/assets/CH.png';
 
 
@@ -6,7 +7,7 @@ export default function AboutMe() {
         <>
             <div className="md:container 2xl:w-2/3 xl:w-3/4 l:w-1/4 px-8 py-4 md:px-16 m-8 mx-auto md:rounded-xl shadow-sm">
 
-                <img src="./src/assets/photo.png" alt="Portrait photo" className="xl:w-1/4 md:w-1/3 sm:w-1/2 rounded-full shadow-lg mx-auto" />
+                <img src={photo} alt="Portrait photo" className="xl:w-1/4 md:w-1/3 sm:w-1/2 rounded-full shadow-lg mx-auto" />
 
                 {/* glow */}
                 <div className="bg-primary w-80 h-80 rounded-full opacity-10 blur-3xl absolute z-[-1]" />

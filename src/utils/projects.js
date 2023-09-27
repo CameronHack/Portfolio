@@ -1,10 +1,13 @@
+import ARVDesktop from '/src/assets/ARVDesktop.png';
+import VoteWaveDesktop from '/src/assets/VoteWaveDesktop.png';
+
 const projects = [
     {
         id: 1,
         title: "ARV",
         description: "",
         image: "/src/assets/ARVDesktop.png",
-        url: "https://cameronhack.github.io/ARV/",
+        url: {ARVDesktop},
         github: "https://github.com/CameronHack/ARV",
         tags: ["Bootstrap", "Bing maps", "AirLabs Flight Tracker"]
     },
@@ -13,7 +16,7 @@ const projects = [
         title: "VoteWave",
         description: "",
         image: "/src/assets/VoteWaveDesktop.png",
-        url: "https://damp-beach-24784-675a670756cd.herokuapp.com/",
+        url: {VoteWaveDesktop},
         github: "https://github.com/brianmyer/votewave",
         tags: ["Handlebars", "Node", "Express", "MySQL", "Tailwind", "Chart.js"]
     },
