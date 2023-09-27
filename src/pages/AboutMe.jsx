@@ -11,9 +11,8 @@ export default function AboutMe() {
                 {/* glow */}
                 <div className="bg-primary w-80 h-80 rounded-full opacity-10 blur-3xl absolute z-[-1]" />
 
-                <p className="font-secondary text-text-light md:px-16 pt-8 text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores amet illum id corrupti veniam! Magni eos obcaecati dolores natus blanditiis odio. Delectus nihil quas eligendi a, placeat voluptatum vitae nostrum!
-                    Quo porro earum facere, fugit nisi cupiditate iste illum voluptas architecto qui ipsum dignissimos! Numquam architecto, facere fuga inventore adipisci ullam nesciunt dignissimos aspernatur eos eius officia sed nobis totam.
-                    Nesciunt perferendis earum quas dignissimos? Corrupti ipsum, blanditiis, libero ipsam molestiae quaerat quisquam velit, perferendis voluptatem mollitia unde cum laborum ullam rem assumenda sequi amet quasi vitae cupiditate suscipit ratione!</p>
+                <p className="font-secondary text-text-light md:px-16 pt-8 text-xl">I am a 23-year-old Full Stack Web Developer from Zelienople, PA. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quaerat praesentium assumenda deserunt? Perspiciatis eos tempora adipisci nulla alias error totam consectetur, optio iure facilis reprehenderit corporis, vel aut natus!
+                Sequi nostrum similique minima suscipit commodi tenetur quasi harum explicabo! Quidem velit laboriosam vel doloremque ducimus quisquam cumque minima dolore odio, ipsam dolores libero adipisci quod corrupti error iure alias.</p>
 
                 {/* bar below about me */}
                 <div className="w-64 h-1 md:mx-16 mt-2 bg-gradient-to-r from-primary to-[#fff0] opacity-50" />
