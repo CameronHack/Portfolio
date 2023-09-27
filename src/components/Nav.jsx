@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import resume from '/src/assets/Resume.pdf';
 
 export default function Nav() {
     return (
@@ -16,7 +17,7 @@ export default function Nav() {
                     <button className='font-secondary text-text-light border-b-2 border-light-1 hover:border-primary transition-all duration-500'>Contact</button>
                 </Link>
 
-                <Link key={4} to="/src/assets/Resume.pdf" target="_blank" rel="noopener noreferrer">
+                <Link key={4} to={resume} target="_blank" rel="noopener noreferrer">
                     <button className='font-secondary text-text-light border-b-2 border-light-1 hover:border-primary transition-all duration-500'>Resume</button>
                 </Link>
             </nav>
