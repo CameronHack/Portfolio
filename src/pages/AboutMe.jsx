@@ -1,4 +1,4 @@
-
+import CHLogo from '/src/assets/CH.png';
 
 
 export default function AboutMe() {
@@ -17,7 +17,7 @@ export default function AboutMe() {
                 {/* bar below about me */}
                 <div className="w-64 h-1 md:mx-16 mt-2 bg-gradient-to-r from-primary to-[#fff0] opacity-50" />
 
-                <img src="./src/assets/CH.png" className="md:w-20 w-1/5 pt-4 mx-auto" />
+                <img src={CHLogo} className="md:w-20 w-1/5 pt-4 mx-auto" />
 
             </div>
         </>

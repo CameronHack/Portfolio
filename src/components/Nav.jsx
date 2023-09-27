@@ -16,7 +16,7 @@ export default function Nav() {
                     <button className='font-secondary text-text-light border-b-2 border-light-1 hover:border-primary transition-all duration-500'>Contact</button>
                 </Link>
 
-                <Link key={4} to="/public/Resume.pdf" target="_blank" rel="noopener noreferrer">
+                <Link key={4} to="/src/assets/Resume.pdf" target="_blank" rel="noopener noreferrer">
                     <button className='font-secondary text-text-light border-b-2 border-light-1 hover:border-primary transition-all duration-500'>Resume</button>
                 </Link>
             </nav>
