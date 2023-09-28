@@ -1,6 +1,5 @@
 
 
-
 export default function Contact() {
     return (
         <>
@@ -10,11 +9,28 @@ export default function Contact() {
 
                 <form className="form contact-form flex flex-col justify-center items-center">
 
-                    <input className="font-secondary text-text-light form-input text-center p-2 m-2 focus:outline-none rounded-lg bg-light-1" type="text" id="name-input" placeholder="Name" required />
+                    <input
+                        className="font-secondary text-text-light form-input text-center p-2 m-2 w-3/4 focus:outline-none rounded-lg bg-light-1"
+                        type="text"
+                        id="name-input"
+                        placeholder="Name"
+                        required
+                    />
 
-                    <input className="font-secondary text-text-light form-input text-center p-2 m-2 focus:outline-none rounded-lg bg-light-1" type="text" id="email-input" placeholder="Email" required />
+                    <input
+                        className="font-secondary text-text-light form-input text-center p-2 m-2 w-3/4 focus:outline-none rounded-lg bg-light-1"
+                        type="text"
+                        id="email-input"
+                        placeholder="Email"
+                        required
+                    />
 
-                    <textarea className="form-input font-secondary text-text-light resize-none text-center p-4 m-2 h-40 w-3/4 focus:outline-none rounded-lg bg-light-1" id="message-input" placeholder="Message" required />
+                    <textarea
+                        className="form-input font-secondary text-text-light resize-none text-center p-4 m-2 h-40 w-3/4 focus:outline-none rounded-lg bg-light-1"
+                        id="message-input"
+                        placeholder="Message"
+                        required
+                    />
 
                     <button className="font-secondary text-primary hover:text-secondary py-2 px-6 m-2 rounded-lg transition-all duration-300 border-2 border-primary hover:border-secondary" type="submit">Submit</button>
                 </form>
