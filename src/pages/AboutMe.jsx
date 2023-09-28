@@ -13,7 +13,7 @@ export default function AboutMe() {
                 <div className="bg-primary w-80 h-80 rounded-full opacity-5 blur-3xl absolute z-[-1]" />
                 <div className="bg-primary w-80 h-80 rounded-full opacity-5 blur-3xl absolute z-[-1] md:scale-150" />
 
-                <p className="font-secondary text-text-light md:px-16 pt-8 text-xl">"I am a 23-year-old Full-Stack Web Developer from Zelienople, PA. My passion for all things technical has been a driving force in my life. Beyond my work life, I'm a relentless learner always striving to expand my skills and expertise as a developer. I find immense joy in the world of web development, and my journey has been nothing short of exhilarating. I'm committed to continuous growth and excellence in my craft." <span className='font-main text-primary'>- Cameron Hack</span></p>
+                <p className="font-secondary text-text-light md:px-16 pt-8 text-xl">"I am a 23-year-old Full-Stack Web Developer from Zelienople, PA. My passion for all things technical has been a driving force in my life. Beyond my work life, I'm a relentless learner always striving to expand my skills and expertise as a developer. I find immense joy in the world of web development, and my journey has been nothing short of exhilarating. I'm committed to continuous growth and excellence in my craft." <br className='lg:hidden' /><span className='font-main text-primary'>- Cameron Hack</span></p>
 
                 {/* bar below about me */}
                 <div className="w-64 h-1 md:mx-16 mt-2 bg-gradient-to-r from-primary to-[#fff0] opacity-50" />
