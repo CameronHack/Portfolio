@@ -1,47 +1,54 @@
-
+import { motion, AnimatePresence } from "framer-motion"
 
 export default function Contact() {
     return (
         <>
-            <div className="md:container 2xl:w-1/2 xl:w-3/4 l:w-1/4 p-4 m-8 mx-auto bg-light-2 md:rounded-3xl shadow-sm">
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1, transition: { ease: "easeOut", duration: 0.6 } }}
+                exit={{ opacity: 0, transition: { ease: "easeIn", duration: 0.6 } }}>
 
-                <h2 className="font-main text-text-light text-3xl text-center p-4">Contact Me</h2>
+                <div className="md:container 2xl:w-1/2 xl:w-3/4 l:w-1/4 p-4 m-8 mx-auto bg-light-2 md:rounded-3xl shadow-sm">
 
-                <form className="form contact-form flex flex-col justify-center items-center">
+                    <h2 className="font-main text-text-light text-3xl text-center p-4">Contact Me</h2>
 
-                    <input
-                        className="font-secondary text-text-light form-input text-center p-2 m-2 w-3/4 focus:outline-none rounded-lg bg-light-1"
-                        type="text"
-                        id="name-input"
-                        placeholder="Name"
-                        required
-                    />
+                    <form className="form contact-form flex flex-col justify-center items-center">
 
-                    <input
-                        className="font-secondary text-text-light form-input text-center p-2 m-2 w-3/4 focus:outline-none rounded-lg bg-light-1"
-                        type="text"
-                        id="email-input"
-                        placeholder="Email"
-                        required
-                    />
+                        <input
+                            className="font-secondary text-text-light form-input text-center p-2 m-2 w-3/4 focus:outline-none rounded-lg bg-light-1"
+                            type="text"
+                            id="name-input"
+                            placeholder="Name"
+                            required
+                        />
 
-                    <textarea
-                        className="form-input font-secondary text-text-light resize-none text-center p-4 m-2 h-40 w-3/4 focus:outline-none rounded-lg bg-light-1"
-                        id="message-input"
-                        placeholder="Message"
-                        required
-                    />
+                        <input
+                            className="font-secondary text-text-light form-input text-center p-2 m-2 w-3/4 focus:outline-none rounded-lg bg-light-1"
+                            type="text"
+                            id="email-input"
+                            placeholder="Email"
+                            required
+                        />
 
-                    <button className="font-secondary text-primary hover:text-secondary py-2 px-6 m-2 rounded-lg transition-all duration-300 border-2 border-primary hover:border-secondary" type="submit">Submit</button>
-                </form>
+                        <textarea
+                            className="form-input font-secondary text-text-light resize-none text-center p-4 m-2 h-40 w-3/4 focus:outline-none rounded-lg bg-light-1"
+                            id="message-input"
+                            placeholder="Message"
+                            required
+                        />
 
-                {/* temp delete later */}
-                <div className="p-4">
-                    <p className="text-red-400 text-xl text-center">Form under construction for now you can contact me using the following 🙂</p>
-                    <p className="text-red-400 text-xl text-center">camhack67@gmail.com</p>
-                    <p className="text-red-400 text-xl text-center">(724)-841-4937</p>
+                        <button className="font-secondary text-primary hover:text-secondary py-2 px-6 m-2 rounded-lg transition-all duration-300 border-2 border-primary hover:border-secondary" type="submit">Submit</button>
+                    </form>
+
+                    {/* temp delete later */}
+                    <div className="p-4">
+                        <p className="text-red-400 text-xl text-center">Form under construction for now you can contact me using the following 🙂</p>
+                        <p className="text-red-400 text-xl text-center">camhack67@gmail.com</p>
+                        <p className="text-red-400 text-xl text-center">(724)-841-4937</p>
+                    </div>
                 </div>
-            </div>
+
+            </motion.div>
         </>
     )
 }    
