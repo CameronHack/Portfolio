@@ -13,9 +13,9 @@ export default function Nav() {
                     <button className='font-secondary text-text-light border-b-2 border-light-1 hover:border-primary transition-all duration-500'>Portfolio</button>
                 </Link>
 
-                <Link key={3} to="/contact">
+                {/* <Link key={3} to="/contact">
                     <button className='font-secondary text-text-light border-b-2 border-light-1 hover:border-primary transition-all duration-500'>Contact</button>
-                </Link>
+                </Link> */}
 
                 <Link key={4} to={resume} target="_blank" rel="noopener noreferrer">
                     <button className='font-secondary text-text-light border-b-2 border-light-1 hover:border-primary transition-all duration-500'>Resume</button>

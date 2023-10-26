@@ -9,13 +9,13 @@ export default function Project({ title, description, image, url, github, tags }
                 <img src={image} alt="" />
 
                 {/* tags */}
-                {/* <div className='flex flex-row justify-center p-2 bg-[#b3b3b3]'>
+                <div className='flex flex-col md:flex-row justify-center p-2 bg-[#b3b3b300]'>
                     {tags.map((tag, index) => (
-                        <h5 key={index} className='mx-4 text-center inline'>{tag}</h5>
+                        <h5 key={index} className='font-secondary mx-4 my-1 text-center inline text-primary'>{tag}</h5>
                     ))}
-                </div> */}
+                </div>
 
-                <div className='flex flex-row justify-center p-2'>
+                <div className='flex flex-row justify-center py-4'>
                 <Link to={github} target="_blank" rel="noopener noreferrer"><button className='font-secondary text-primary hover:text-secondary py-2 px-6 mx-2 rounded-lg transition-all duration-300 border-2 border-primary hover:border-secondary'>GitHub</button></Link>
                 <Link to={url} target="_blank" rel="noopener noreferrer"><button className='font-secondary text-primary hover:text-secondary py-2 px-6 mx-2 rounded-lg transition-all duration-300 border-2 border-primary hover:border-secondary'>Live Site</button></Link>
                 </div>
